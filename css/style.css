@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 350px;
+	min-height: 550px;
+	background-color: #75DBFF;
+	margin: 100px auto;
+}
+
+.avatar {
+	width: 100%;
+	height: auto;
+	border: 5px solid #ffffff;
+	border-radius: 10px;
+}
+
+.boxAvatar {
+	margin-left: 40px;
+	padding-top: 20px;
+	max-width: 200px;
+	height: auto;
+}
+
+.name {
+	margin: 16px 0 2px 40px;
+	font-size: 24px;
+
+}
+
+.social {
+	text-transform: lowercase;
+	margin: 0 0 10px 40px;
+}
+
+.social a {
+	text-decoration: none;
+	color: #757473;
+}
+
+.bio {
+	margin: 0 40px;
+}
+
+.bio a, .web a {
+	text-decoration: none;
+	color: #FF6300;
+}
+
+.city {
+	margin: 20px 0 0 40px;
+}
+
+.web, .date {
+	margin: 0 0 0 40px;
+}
+
+.web a {
+	text-transform: lowercase;
+}
+
+.fa-map-marker {
+	margin: 0 2px 0 3px;
+}
+
+button {
+	margin: 20px 40px;
+	width: 270px;
+	padding: 10px 0;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #FF6300;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	cursor: pointer;
+}
